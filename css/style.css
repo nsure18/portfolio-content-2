@@ -1,0 +1,114 @@
+body {
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    line-height: 17px;
+}
+
+nav{
+    background-color: rgb(204, 223, 241);
+    min-height: 50px;
+    min-width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+nav li{
+    display: inline;
+    border: 2px solid rgb(63, 58, 58);
+    border-radius: 4px;
+    padding: 5px;
+    margin: 4px;
+    background: rgb(97, 20, 58);
+ }
+
+nav li a{
+    color: honeydew;
+    text-decoration: none;
+}
+
+nav li a:visited {
+    color: rgb(151, 144, 144);
+}
+
+nav li a:hover {
+    color: rgb(204, 223, 241);
+    text-decoration: underline;
+ }
+
+
+h1 {
+    font-size: 23px;
+    font-weight: bold;
+    margin: 20px 10px 10px 10px;
+}
+
+figure figcaption {
+    font-size:12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    font-size: 20px;
+    font-style: italic;
+    margin: 10px;
+    color:rgb(45, 77, 136);
+}
+
+h3 {
+    font-size: 17px;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+img {
+    width: 200px;
+    border: 10px solid rgb(245, 178, 236);
+    padding: 2px;
+    margin: 16px 4px 6px 4px;
+    border-radius: 1%;
+}
+
+img:nth-of-type(2n) {
+    width: 200px;
+    border: 10px solid rgb(37, 7, 25);
+    padding: 2px;
+    margin: 16px 4px 6px 4px;
+    border-radius: 1%;
+}
+
+img:hover {
+    width: 400px;
+    border: 10px dashed rgb(154, 95, 160);
+    padding: 3px;
+    margin: 6px;
+    border-radius: 2%;
+}
+
+footer {
+    background-color: rgb(204, 223, 241);
+    height: 50px;
+    width: 100%;
+    margin: 15px 5px 10px 5px;
+    text-align: center;
+}
+
+.active {
+    background-color: rgb(253, 253, 253);
+    border: rgb(37, 7, 25) dotted 2px;
+    padding: 10px 7px;
+    font-weight: bold;
+}
+
+li.active a {
+    color:rgb(37, 7, 25)
+}
+
+.date {
+    text-align: right;
+    font-style: normal;
+    font-size: medium;
+}
+
